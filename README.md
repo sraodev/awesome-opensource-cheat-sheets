@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://lh5.googleusercontent.com/proxy/gkFynBvv0jaxwbUUDHBNfN_wD-UPjLrGokZxSR41C6xhZjZJvwG2jRSdWp9gPVnayzp8zV3ow3X4yIYc3VtD77M5F-FMRoadC8d2ok0DbOx0UGfnoJ0AV9dM" width="150" title="hover text"> 
+</p>
+
 # Open Source Cheat Sheets
 
 Cheat Sheets | Description
