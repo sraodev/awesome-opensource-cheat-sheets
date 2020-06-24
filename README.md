@@ -1,3 +1,5 @@
+
+
 <p align="center">
   <img src="https://lh5.googleusercontent.com/proxy/gkFynBvv0jaxwbUUDHBNfN_wD-UPjLrGokZxSR41C6xhZjZJvwG2jRSdWp9gPVnayzp8zV3ow3X4yIYc3VtD77M5F-FMRoadC8d2ok0DbOx0UGfnoJ0AV9dM" width="150" title="hover text"> 
   <img align="right" src="https://github.com/sraodev/super/blob/master/assets/icons-super-48.png" width="48" title="hover text"> 
@@ -43,4 +45,13 @@ Cheat Sheets | Description
 
 Source : [opensource.com](https://opensource.com/downloads/cheat-sheets)
 
+<!-- CONTRIBUTING -->
+## Contributing
 
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
