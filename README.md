@@ -45,8 +45,13 @@ Cheat Sheets | Description
 
 Source : [opensource.com](https://opensource.com/downloads/cheat-sheets)
 
+<!-- CREDTIS -->
+## Credits
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**. Please read the [contribution guidelines](https://github.com/sraodev/super-opensource-cheat-sheets/blob/master/contributing.md) first.
 
+<!-- LICENSE -->
+## License
