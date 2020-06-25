@@ -1,11 +1,11 @@
-
-
 <p align="center">
-  <img src="https://lh5.googleusercontent.com/proxy/gkFynBvv0jaxwbUUDHBNfN_wD-UPjLrGokZxSR41C6xhZjZJvwG2jRSdWp9gPVnayzp8zV3ow3X4yIYc3VtD77M5F-FMRoadC8d2ok0DbOx0UGfnoJ0AV9dM" width="150" title="hover text"> 
+  <img src="https://static.thenounproject.com/png/399116-200.png" width="150" title="hover text"> 
+  <a href="https://github.com/sraodev/super">
   <img align="right" src="https://github.com/sraodev/super/blob/master/assets/icons-super-48.png" width="48" title="hover text"> 
+  </a>
 </p>
 
-# Open Source Cheat Sheets ![Twitter URL](https://img.shields.io/twitter/url?label=opensourceway&style=social&url=https%3A%2F%2Ftwitter.com%2Fopensourceway)
+# Open Source Cheat Sheets 
 
 Cheat Sheets | Description
 ---|---
@@ -43,10 +43,15 @@ Cheat Sheets | Description
 ⌘ [Open source software alternatives ](https://github.com/sraodev/Open-Source-Cheat-Sheets/blob/master/cheat_sheets/cheat_sheet_open_source_alternatives_0.pdf)|Quickly find alternatives to common proprietary software tools with this cheat sheet.
 ⌘ [Containers Primer](https://github.com/sraodev/Open-Source-Cheat-Sheets/blob/master/cheat_sheets/containers_primer_v2.pdf)|Containers have become a hot topic among not just developers, but also enterprises. Learn the lingo and get the basics of Linux containers.
 
-Source : [opensource.com](https://opensource.com/downloads/cheat-sheets)
-
 <!-- CREDTIS -->
 ## Credits
+![Twitter URL](https://img.shields.io/twitter/url?label=opensourceway&style=social&url=https%3A%2F%2Ftwitter.com%2Fopensourceway)
+
+
+<!-- ACKNOWLEGEMENTS -->
+## Acknowledgements
+[Opensource](https://opensource.com/downloads/cheat-sheets) for cheat-sheets
+
 
 <!-- CONTRIBUTING -->
 ## Contributing
