@@ -55,3 +55,4 @@ Contributions are what make the open source community such an amazing place to b
 
 <!-- LICENSE -->
 ## License
+[Creative Commons Attribution License](https://creativecommons.org/licenses/by/2.0/)
