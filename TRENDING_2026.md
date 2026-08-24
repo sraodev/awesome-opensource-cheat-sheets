@@ -1,8 +1,27 @@
 # Open Source in 2026: Signals and Quick References
 
-Last reviewed: **2026-08-18**
+Last reviewed: **2026-08-24**
 
 This is a concise, evidence-backed guide to the areas that deserve new cheat sheets in 2026. It is a snapshot, not a prediction market or a ranking of vendors.
+
+## Fast-growing projects behind the 2026 signals
+
+GitHub's latest Octoverse dataset ranked these projects by **contributor growth during 2025**, not by total stars or a subjective quality score. They are useful signals for deciding which references need attention in 2026.
+
+| Rank | Project | Signal | Start here |
+|---:|---|---|---|
+| 1 | [Zen Browser](https://github.com/zen-browser/desktop) | Independent browser and privacy-focused user experience. | [Repository guide](https://github.com/zen-browser/desktop#readme) |
+| 2 | [Cline](https://github.com/cline/cline) | Open coding agents with explicit user approvals. | [IDE tutorial](https://docs.cline.bot/usage/ide) |
+| 3 | [vLLM](https://github.com/vllm-project/vllm) | High-throughput open-model inference and serving. | [Quickstart](https://docs.vllm.ai/en/latest/getting_started/quickstart/) |
+| 4 | [uv](https://github.com/astral-sh/uv) | Fast, reproducible Python environments and packaging. | [Getting started](https://docs.astral.sh/uv/getting-started/) |
+| 5 | [Visual Studio Code](https://github.com/microsoft/vscode) | Extensible editor and developer environment. | [Keyboard shortcuts](https://code.visualstudio.com/docs/configure/keybindings) |
+| 6 | [RAGFlow](https://github.com/infiniflow/ragflow) | Retrieval, document understanding, and agent context. | [Quick start](https://github.com/infiniflow/ragflow#-get-started) |
+| 7 | [SGLang](https://github.com/sgl-project/sglang) | High-performance language-model serving. | [Documentation](https://docs.sglang.io/) |
+| 8 | [Continue](https://github.com/continuedev/continue) | Open-source AI coding workflows. | [Documentation](https://docs.continue.dev/) |
+| 9 | [ComfyUI](https://github.com/comfyanonymous/ComfyUI) | Node-based, locally runnable generative-media workflows. | [Documentation](https://docs.comfy.org/) |
+| 10 | [Home Assistant](https://github.com/home-assistant/core) | Local-first, community-driven home automation. | [Getting started](https://www.home-assistant.io/getting-started/) |
+
+**Data source:** [GitHub Octoverse 2025: fastest-growing open-source projects](https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/).
 
 ## 1. AI development is becoming agent development
 
@@ -82,8 +101,11 @@ The highest-value original contributions would be compact, versioned references 
 2. secure agent tool design and approval boundaries;
 3. TypeScript for AI-assisted development;
 4. modern Python projects with `pyproject.toml` and `uv`;
-5. software supply-chain checks with OpenSSF, SLSA, SBOMs, and Sigstore;
-6. OpenTelemetry traces, metrics, and logs;
-7. Kubernetes operations for inference workloads.
+5. open-model serving with vLLM and SGLang;
+6. retrieval and context workflows with RAGFlow;
+7. software supply-chain checks with OpenSSF, SLSA, SBOMs, and Sigstore;
+8. OpenTelemetry traces, metrics, and logs;
+9. Kubernetes operations for inference workloads;
+10. local-first automation with Home Assistant.
 
 Every new sheet should show its version, source links, license, and last-reviewed date.

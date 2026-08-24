@@ -37,6 +37,14 @@ Prefer linking to a project-owned, maintained page. Add a PDF to the repository 
 5. Update the README's review date only when you checked all current official links.
 6. Explain how you verified any AI-assisted contribution; contributors remain responsible for accuracy and licensing.
 
+The scheduled workflow requires the README and trend report review dates to match and be no more than 120 days old.
+
+Run the repository-owned validation before submitting:
+
+```bash
+python3 scripts/validate_collection.py
+```
+
 Changes to categorization, descriptions, accessibility, and stale links are welcome. Avoid unrelated formatting or large generated rewrites.
 
 ## Community

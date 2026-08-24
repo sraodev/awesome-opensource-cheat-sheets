@@ -1,6 +1,7 @@
 # Awesome Open Source Cheat Sheets
 
 [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+[![Validate collection](https://github.com/sraodev/awesome-opensource-cheat-sheets/actions/workflows/validate.yml/badge.svg)](https://github.com/sraodev/awesome-opensource-cheat-sheets/actions/workflows/validate.yml)
 [![2026 edition](https://img.shields.io/badge/edition-2026-2f81f7)](TRENDING_2026.md)
 [![31 offline PDFs](https://img.shields.io/badge/offline_PDFs-31-238636)](#offline-pdf-archive)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-f39c12)](CONTRIBUTING.md)
@@ -8,7 +9,7 @@
 A curated collection of practical quick references for open-source tools and technologies. Use the **current official resources** for fast-moving projects and the **offline PDF archive** for foundational topics.
 
 > [!NOTE]
-> The archived PDFs come from the original Opensource.com collection and may describe older versions. The current links below were reviewed on **2026-08-18**.
+> The archived PDFs come from the original Opensource.com collection and may describe older versions. The current links below were reviewed on **2026-08-24**.
 
 ## Start here
 
@@ -25,6 +26,9 @@ These links favor project-owned documentation so that the content can evolve wit
 | Focus | Quick reference | Why it belongs in the 2026 edition |
 |---|---|---|
 | AI agents | [Model Context Protocol documentation](https://modelcontextprotocol.io/docs/getting-started/intro) | Open standard for connecting AI applications to tools and data. |
+| AI coding agents | [Cline IDE tutorial](https://docs.cline.bot/usage/ide) | Approval-based workflow for an open-source coding agent. |
+| AI model serving | [vLLM quickstart](https://docs.vllm.ai/en/latest/getting_started/quickstart/) | Current reference for open-model inference and serving. |
+| RAG and context | [RAGFlow quick start](https://github.com/infiniflow/ragflow#-get-started) | Open-source retrieval, document processing, and agent context. |
 | Agent security | [OWASP Agentic Security Initiative](https://genai.owasp.org/initiatives/agentic-security-initiative/) | Practical threat, MCP, and agent-security guidance. |
 | TypeScript | [Official TypeScript cheat sheets](https://www.typescriptlang.org/cheatsheets/) | Printable references for types, interfaces, classes, and control flow. |
 | Python tooling | [uv getting started guide](https://docs.astral.sh/uv/getting-started/) | Fast, reproducible Python project and package management. |
@@ -34,6 +38,8 @@ These links favor project-owned documentation so that the content can evolve wit
 | Supply-chain security | [OpenSSF OSPS Baseline](https://baseline.openssf.org/) | Actionable minimum security controls for open-source projects. |
 | Build provenance | [SLSA quick start](https://slsa.dev/how-to/get-started) | Practical steps for generating and verifying build provenance. |
 | Infrastructure as code | [OpenTofu CLI reference](https://opentofu.org/docs/cli/) | Open-source infrastructure-as-code command reference. |
+| Creative AI workflows | [ComfyUI documentation](https://docs.comfy.org/) | Open, node-based workflows for generative media. |
+| Local-first automation | [Home Assistant getting started](https://www.home-assistant.io/getting-started/) | Community-driven home automation that can run locally. |
 
 ## Offline PDF archive
 
@@ -104,6 +110,21 @@ A new entry should be:
 - free of affiliate links and tracking parameters.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the submission checklist.
+
+## Automated validation
+
+The [validation workflow](.github/workflows/validate.yml) runs for pull requests, changes to `master`, every Monday, and on demand. It checks:
+
+- local Markdown targets and repository boundaries;
+- one-to-one coverage of all archived PDFs in this README;
+- matching review dates that are no more than 120 days old;
+- live external links, with retries and a job summary.
+
+Run the deterministic checks locally before opening a pull request:
+
+```bash
+python3 scripts/validate_collection.py
+```
 
 ## Acknowledgements and licensing
 
