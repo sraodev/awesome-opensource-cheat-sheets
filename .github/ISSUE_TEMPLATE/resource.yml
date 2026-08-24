@@ -1,0 +1,60 @@
+name: Suggest a cheat sheet
+description: Propose a new or updated open-source quick reference
+title: "[Resource]: "
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping keep the collection current. Please submit one resource per issue.
+  - type: input
+    id: resource
+    attributes:
+      label: Resource name
+      placeholder: "Example: kubectl quick reference"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Canonical URL
+      placeholder: https://project.example.org/quick-reference
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - AI and agents
+        - Command line and Linux
+        - Programming and templating
+        - DevOps, containers, and architecture
+        - Security and supply chain
+        - Editors, design, and documents
+        - Hardware and open-source discovery
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Why it is useful
+      description: Explain what the sheet covers and why it works as a quick reference.
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License or terms
+      description: Required for files proposed for inclusion; optional for external links.
+      placeholder: "Example: CC BY 4.0"
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I checked that this resource is publicly accessible and not already listed.
+          required: true
+        - label: I removed affiliate links and unnecessary tracking parameters.
+          required: true
+        - label: I verified the resource is current or identified the version it covers.
+          required: true
