@@ -1,0 +1,18 @@
+title: Awesome Open Source Cheat Sheets
+description: >-
+  Maintained developer cheat sheets for AI agents, Linux, Git, Python,
+  TypeScript, Docker, Kubernetes, security, and more, plus 31 offline PDFs.
+url: https://sraodev.github.io
+baseurl: /awesome-opensource-cheat-sheets
+theme: jekyll-theme-primer
+twitter:
+  username: sraodev
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/social-preview.png
+        height: 640
+        width: 1280
+        alt: Awesome Open Source Cheat Sheets

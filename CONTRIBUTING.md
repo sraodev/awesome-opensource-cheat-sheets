@@ -49,4 +49,4 @@ Changes to categorization, descriptions, accessibility, and stale links are welc
 
 ## Community
 
-Be respectful, specific, and constructive. Reviews may ask for stronger sourcing, a narrower change, or clearer licensing before merge.
+Be respectful, specific, and constructive, and follow the [Code of Conduct](CODE_OF_CONDUCT.md). Reviews may ask for stronger sourcing, a narrower change, or clearer licensing before merge. Report malicious or compromised resources through the [security policy](SECURITY.md).

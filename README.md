@@ -6,18 +6,32 @@
 [![31 offline PDFs](https://img.shields.io/badge/offline_PDFs-31-238636)](#offline-pdf-archive)
 [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-f39c12)](CONTRIBUTING.md)
 
-A curated collection of practical quick references for open-source tools and technologies. Use the **current official resources** for fast-moving projects and the **offline PDF archive** for foundational topics.
+[![Awesome Open Source Cheat Sheets preview](assets/social-preview.png)](#contents)
+
+Save time searching documentation: use **maintained quick references** for AI agents, Linux, Git, Python, TypeScript, Docker, Kubernetes, security, and more, plus **31 downloadable PDFs** for offline use.
+
+> If this collection saves you time, [star the repository](https://github.com/sraodev/awesome-opensource-cheat-sheets) so you can find it again and help other developers discover it.
 
 > [!NOTE]
 > The archived PDFs come from the original Opensource.com collection and may describe older versions. The current links below were reviewed on **2026-08-24**.
 
-## Start here
+## Contents
 
 - [2026 open-source trends and evidence](TRENDING_2026.md)
 - [Current official quick references](#current-official-quick-references)
 - [Offline PDF archive](#offline-pdf-archive)
+- [How resources are selected](#how-resources-are-selected)
 - [Suggest a resource](https://github.com/sraodev/awesome-opensource-cheat-sheets/issues/new?template=resource.yml)
 - [Contribution guide](CONTRIBUTING.md)
+
+## Pick the right reference
+
+| You need | Start here |
+|---|---|
+| Current commands and workflows | [Official quick references](#current-official-quick-references) |
+| AI, agent, security, and infrastructure signals | [2026 trend watch](TRENDING_2026.md) |
+| A printable or offline reference | [PDF archive](#offline-pdf-archive) |
+| A missing or outdated resource fixed | [Open a focused issue](https://github.com/sraodev/awesome-opensource-cheat-sheets/issues/new/choose) |
 
 ## Current official quick references
 
@@ -125,6 +139,14 @@ Run the deterministic checks locally before opening a pull request:
 ```bash
 python3 scripts/validate_collection.py
 ```
+
+## Help this collection grow
+
+- **Star** it to keep the references one click away.
+- **Share** the most useful sheet with a teammate, study group, or open-source community.
+- **Contribute** one focused improvement: a maintained reference, a repaired link, or a clearer description.
+
+See a problem? [Report a broken or outdated link](https://github.com/sraodev/awesome-opensource-cheat-sheets/issues/new?template=broken-link.md) or [suggest a cheat sheet](https://github.com/sraodev/awesome-opensource-cheat-sheets/issues/new?template=resource.yml).
 
 ## Acknowledgements and licensing
 
